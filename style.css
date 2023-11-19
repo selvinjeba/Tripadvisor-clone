@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+
+.navbar{
+    margin-top: -3%;
+    display: flex;
+    justify-content: space-around;
+    float: row;
+    align-items: center;
+   
+          
+}
+
+
+.navbar__sec2{
+display: flex;
+gap: 25px;
+
+   
+}
+
+
+.navbar__sec3{
+    display: flex;
+    gap: 10px;
+}
+
+.whereto__sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.whereto__sec2__navbar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+.whereto__sec2__navbar p{
+
+    font-size: 20px;
+}
+
+.whereto__searchbar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.whereto__sec3__searchbar{
+    
+    border: solid gray 2px;
+    height: 50px;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;   
+    align-items: center;
+    position: relative;
+  
+    
+}
+
+.whereto__sec3__searchbar button{
+    position: absolute;
+    right: 10px;
+    font-size: large;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #84E9BD;
+    border: none;
+}
+
+.whereto__sec3__searchbar i{
+    position: absolute;
+    left: 30px;
+  
+}
+
+.whereto__sec3__searchbar input{
+    position: absolute;
+    right: 540px;
+    font-size:large ;
+    border: none;
+
+}
+  
+.firstimage{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.firstimage__one{
+    position: absolute;
+    margin-top: 5%;
+    left: 25%;
+}
+
+.firstimage__one p{
+    font-size: 25px;
+}
+
+.firstimage__one button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+    
+}
+
+.bookingrec{
+    padding: 20px; 
+    margin-top: 15px;
+    margin-left: 40px;
+}
+    
+
+
+
+   .caption1__img img{
+    position: relative;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.caption1__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+.caption2__img img{
+    position: relative;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.caption2__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+.caption3__img img{
+    position: relative;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.caption3__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+.caption4__img img{
+    position: relative;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.caption4__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+
+.bookingrec__imgs{
+    margin-top: 20px;
+    display: flex;
+  
+
+}
+
+.food__container{
+    width: 800px;
+    height: 180px;
+    background-color: #DFD3EE;
+    margin-left: 5px;
+}
+
+.food__image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.food__image img{
+    height: 180px;
+}
+
+.allergie__tips{
+    padding: 20px;
+    width: 50%;
+    margin: 5px;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+
+.allergie__tips button{
+    padding: 14px 24px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 4px;
+}
+
+.allergie__tips p{
+    margin-top: 4px;
+   
+}
+
+.foodallergie{
+    position: relative;
+}
+
+.dreamtrip{
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.dreamtrip h2{
+    margin-top: 5px;
+}
+
+.dreamtrip__img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.p1__img img{
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.p1__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+
+.p2__img img{
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.p2__title{
+    position: absolute;
+    margin-top: -5%;
+    color:white;
+    
+}
+
+
+.p3__img img{
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.p3__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+
+.p4__img img{
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.p4__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+.topdestinations{
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.topdestinations h2{
+    margin-top: 5px;
+}
+
+.testination__img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1__img img{
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.c1__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+
+.c2__img img{
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.c2__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+
+.c3__img img{
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.c3__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+
+.c4__img img{
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.c4__title{
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    
+}
+
+.footer{
+    background-color: #FAF1ED;
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer__one{
+    display: flex;
+    gap: 50px;
+}
+
+.footer__one p{
+    margin: 20px;
+}
+
+.footer__two{
+    display: flex;
+   gap: 5px;
+    
+}
+
+.footer__two img{
+    width: 50%;
+}
+
+
+.footer__two__content p{
+
+    margin: 10px;
+}
